@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <noscript>
+      <div style="text-align: center;">
+        <h3>
+        You must have JavaScript enabled to use this page 
+        </h3>
+      </div>
+    </noscript>
+    <script type="text/javascript">
+      var anchor = document.createElement('a');
+      anchor.href = window.location.href;
+      anchor.hash = anchor.pathname;
+      anchor.pathname = '';
+      window.location.href = anchor.href;
+    </script>
+  </body>
+</html>
